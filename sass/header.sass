@@ -1,0 +1,48 @@
+@import "bourbon"
+@import "vars.sass"
+
+* 
+	margin: 0
+	padding: 0
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	color: white
+
+a
+	text-decoration: none
+	color: white
+
+.hidden
+	display: none
+ 
+.main
+	height: 100vh
+	background-color: #0079be
+	.myheader 
+		background-color: #0067a2
+		height: 30px
+		padding: 5px
+
+.boards
+	width: 150px
+	.board-icon
+		font-family: "trellicons" !important
+		font-size: 16px
+		line-height: 1.3
+		width: 50px
+	.board-icon::before 
+		content: '\e906'
+		width: 20px
+		font-family: "trellicons" !important
+		font-size: 1pc
+		line-height: 30px
+		font-style: normal
+		font-weight: 400
+		text-align: center
+		
